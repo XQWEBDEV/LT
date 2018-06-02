@@ -1,0 +1,223 @@
+
+/*900 ~ 1200*/
+@media all and (max-width: 1190px) and (min-width: 900px){
+    #maincon .maincon-m .maincon-wrap{
+		width: 880px;
+    }
+    #maincon .maincon-m11 .maincon-wrap-img{
+    	width: 550px;
+    }
+    #maincon .maincon-m .maincon-wrap .nav-arrow{
+		display: block;
+	}
+	#maincon .maincon-m.maincon-m1 .txt{
+		top:25%;
+		left:25%;
+	}
+}
+
+/*0 ~ 900*/
+@media all and (max-width: 900px){
+   	#maincon{
+   		margin-top: 107px;
+   	}
+   	#maincon .maincon-m{
+   		width: 100%;
+   	}
+   	#maincon .maincon-m.maincon-m1 .txt{
+		top:14%;
+		left:20%;
+	}
+	#maincon .maincon-m.maincon-m1 .txt>h2{
+		font-size: 34px;
+	}
+	#maincon .maincon-m.maincon-m1 .txt>p{
+		text-align: left;
+	}
+	#maincon .maincon-m.maincon-m1 .bottom > p{
+		line-height: 60px;
+		font-size: 14px;
+	}
+	#maincon .maincon-m.maincon-m2,
+	#maincon .maincon-m.maincon-m4,
+	#maincon .maincon-m.maincon-m6,
+	#maincon .maincon-m.maincon-m8,
+	#maincon .maincon-m.maincon-m10{
+		background-attachment: scroll;
+		height: 300px;
+	}
+	#maincon .maincon-m .maincon-wrap .txt,
+	#maincon .maincon-m .maincon-wrap .maincon-wrap-img{
+   		float:none;
+   	}
+   	#maincon .maincon-m .maincon-wrap{
+   		width: 100%;
+   	}
+   	#maincon .maincon-m .maincon-wrap .txt{
+	   	width: 400px;
+	    margin: 0 auto;
+	    padding: 30px 0;
+	    text-align: center;
+  	}
+  	#maincon .maincon-m .maincon-wrap .maincon-wrap-img{
+  		width: 400px;
+	    margin: 0 auto;
+  	}
+  	#maincon .maincon-m .maincon-wrap .txt>h2{
+  		font-size:34px;
+  	}
+  	#maincon .maincon-wrap .vcenter{
+		top:0;
+		transform:translate(0,0); 
+	}
+	#maincon .maincon-m3 .maincon-wrap .maincon-wrap-img{
+		height: 266px;
+	}
+	#maincon .maincon-m5 .m5-itemlist{
+		float:none;
+		margin:auto;
+	}
+	#maincon .maincon-m7 .maincon-wrap-img .pointer{
+		width: 118px;
+		top: 79px;
+   		left: 165px;
+	}
+	#maincon .maincon-m9 .maincon-wrap .maincon-wrap-img {
+		width: 300px;
+	}
+	#maincon .maincon-m  .nav-arrow{
+		display: none;
+	}
+	#maincon .maincon-m9 .maincon-wrap-img .bigimg {
+		width:417px;
+	}
+	#maincon .maincon-m9 .maincon-wrap-img>img,
+	#maincon .maincon-m9 .maincon-wrap-img .bigimg>img{
+		width: 100%;
+		height:auto;
+	}
+	#maincon .maincon-m11 .txt .pingtailist>ul{
+		overflow: hidden;
+		padding-left:100px;
+	}
+}
+
+/*0 ~ 600*/
+@media all and (max-width: 600px){
+	#maincon .maincon-m{
+		height: 480px;
+	}
+   	#maincon .maincon-m .maincon-wrap .txt,
+  	#maincon .maincon-m .maincon-wrap .maincon-wrap-img
+   	{
+	   	width: 300px;
+	}
+	#maincon .maincon-m.maincon-m1 .txt{
+		top:14%;
+		left:20%;
+	}
+	#maincon .maincon-m .maincon-wrap .txt>h2,
+	#maincon .maincon-m.maincon-m1 .txt>h2{
+		font-size:24px;
+	}
+	#maincon .maincon-m.maincon-m1 .txt>h2{
+		line-height: 44px;
+	}
+	#maincon .maincon-m.maincon-m1 .txt>p{
+		line-height: 27px;
+	}
+	#maincon .maincon-m .maincon-wrap .txt>p,
+	#maincon .maincon-m.maincon-m1 .txt>p{
+		font-size:14px;
+	}
+	#maincon .maincon-m.maincon-m1 .bottom > p{
+		line-height: 50px;
+		font-size: 12px;
+	}
+	#maincon .maincon-m3 .maincon-wrap .maincon-wrap-img{
+		margin:20px auto;
+		height: 200px;
+	}
+	#maincon .maincon-m.maincon-m5{
+		height:665px;
+	}
+	#maincon .maincon-m5 .m5-itemlist{
+		width:100%;
+	}
+	#maincon .maincon-m5 .m5-itemlist .bgimg{
+		float:none;
+		width: 280px;	
+		height: 280px;	
+		margin: 0 auto;
+	}
+	#maincon .maincon-m5 .m5-itemlist>ul{
+		float: none;
+		width:300px;
+		padding-top:30px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+	#maincon .maincon-m5 .m5-itemlist>ul>li{
+		float:left;
+		margin:12px 8px;
+		height: 16px;
+		font-size: 16px;
+		line-height: 16px;
+	}
+	#maincon .maincon-m5 .m5-itemlist ul>li>span{
+		margin-right: 10px;
+	}
+	#maincon .maincon-m5 .m5-itemlist ul>li.active{
+		font-size: 16px;
+		color: #B6D230;
+	}
+	#maincon .maincon-m7 .maincon-wrap-img .pointer{
+	    width: 90px;
+	    top: 60px;
+	    left: 122px;
+	}
+	#maincon .maincon-m9 .maincon-wrap .maincon-wrap-img {
+		width: 230px;
+	}
+	#maincon .maincon-m9 .maincon-wrap-img .bigimg {
+		width:320px;
+	}
+	#maincon .maincon-m9 .maincon-wrap-img>img,
+	#maincon .maincon-m9 .maincon-wrap-img .bigimg>img{
+		width: 100%;
+		height:auto;
+	}
+	#maincon .maincon-m11 .txt .pingtailist>ul{
+		padding-left:42px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,218 @@
+/*900 ~ 1200*/
+@media all and (max-width: 1199px) and (min-width: 900px){
+	/*container Banner*/
+	#container {
+		height: 450px;
+	}
+	#container .swplist .swp1 .text{
+		margin-top: 310px;
+	}
+	#container .swplist .swp1 .main-bg{
+		width: 500px;
+		height: 380px;
+		margin-right: 25px;
+	}
+	#container .swplist .swp2 .text{
+		width: 250px;
+		margin-top:200px;
+	}
+	#container .swplist .swp2 .main-bg{
+		width: 530px;
+		height: 380px;
+		margin-right: 50px;
+	}
+	#container .swplist .swp3 .text{
+		width: 250px;
+		margin-top:100px;
+		margin-right: 50px;
+	}
+	#container .swplist .swp3 .main-bg{
+		width: 500px;
+		height: 387px;
+		margin-left: 30px;
+		margin-top: 15px;
+	}
+	/*经典案例*/
+	#classic{
+		height: 740px;
+	}
+	#classic .classic-con{
+		width: 900px;
+		height: 560px;
+	}
+	#classic .classic-con .classiclist>li{
+		width: 180px;
+	}
+	#classic .classic-con .nav-btn{
+		top:51%;
+	}
+	#classic .classic-con .tab-btns{
+		display: block;
+	}
+}
+/*0 ~ 900*/
+@media all and (max-width: 899px) and (min-width: 0px){
+	/*container Banner*/
+	#container{
+		height: 350px;
+		margin-top: 107px;
+	}
+	
+	#container .swplist .swp1 .text{
+		float: none;
+		width: 190px;
+		height: 75px;
+		margin:0 auto;
+	}
+	#container .swplist .swp1 .main-bg{
+		float: none;
+		width: 328px;
+		height: 250px;
+		margin:12.5px auto;
+	}
+	#container .swplist .swp2 .text{
+		width: 180px;
+		margin-top:100px;
+		margin-left: 30px;
+	}
+	#container .swplist .swp2 .main-bg{
+		width: 380px;
+		height: 265px;
+		margin-top: 50px;
+		margin-right: 10px;
+	}
+	#container .swplist .swp3 .text{
+		width: 200px;
+		margin-top:100px;
+		margin-right: 30px;
+	}
+	#container .swplist .swp3 .main-bg{
+		width: 350px;
+		height: 267px;
+		margin-left: 20px;
+		margin-top:50px;
+	}
+	/*经典案例*/
+	#classic{
+		height: 690px;
+	}
+	#classic .classic-con{
+		width: 600px;
+		height: 510px;
+	}
+	#classic .classic-con .classiclist{
+		width:900%;
+	}
+	#classic .classic-con .classiclist>li{
+		width: 200px;
+	}
+	#classic .classic-con .nav-btn{
+		top:58%;
+	}
+	#classic .classic-con .tab-btns{
+		display: none;
+	}
+	#classic .title .top-bg img,
+	#partner .title .top-bg img{
+		width:70%;
+	}
+	/*研发伙伴*/
+	#partner .partner-list{
+		width: 100%;
+		height: 230px;
+		margin:50px auto;
+	}
+	#partner .partner-list>li{
+		float:none;
+		width: 100%;
+		height:50px;
+		margin:20px auto;
+	}
+	/*底部*/
+	#footer{
+		height: 128px;
+	}
+	#footer .text{
+		width: 100%;
+	}
+	#footer .text>p{
+		float:none;
+		text-align: center;
+		margin:20px auto;
+	}
+	#footer .text>p:last-child{
+		margin-right: 0;
+	}
+}
+/*0 ~ 600*/
+@media all and (max-width: 599px) and (min-width: 0px){
+	/*container Banner*/
+	#container{
+		height: 400px;
+	}
+	
+	#container .swplist .swp1 .text{
+		float: none;
+		width: 200px;
+		height: 94px;
+		margin:20px auto;
+	}
+	#container .swplist .swp1 .main-bg{
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin:20px auto;
+	}
+	#container .swplist .swp2 .text,
+	#container .swplist .swp3 .text
+	{
+		float: none;
+		width: 200px;
+		margin:20px auto;
+	}
+	#container .swplist .swp2 .main-bg{
+		float:none;
+		width: 300px;
+		height: 210px;
+		margin:20px auto;
+	}
+	#container .swplist .swp3 .main-bg{
+		float:none;
+		width: 300px;
+		height: 234px;
+		margin:0 auto;
+	}
+	/*经典案例*/
+	#classic .classic-con{
+		width: 200px;
+	}
+	#classic .classic-con .classiclist>li{
+		width: 200px;
+	}
+	#classic .classic-con .classiclist>li.sidem{
+	transform: scale(1);
+	}
+	#classic .classic-con .classiclist>li.mid{
+		transform: scale(1);
+	}
+	#classic .classic-con .nav-btn{
+		top:58%;
+	}
+	#classic .title,
+	#partner .title{
+		width:70%;
+	}
+	#partner .partner-list{
+		width: 100%;
+		height: 230px;
+		margin:20px auto;
+	}
+	
+	#partner .partner-list>li>img{
+		width:35%;
+		height:auto;
+	}
+	#partner .partner-list>li:nth-child(2)>img{
+		width:20%;
+	}
+}
